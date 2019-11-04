@@ -17,7 +17,7 @@ Instructions to run the website and download the source code.
 
 Open the folder "Document" --> click "InstallationGuide.pdf"
 
-( Or click on the link: https://github.com/trieuvuong102/Jproject_Group_5/blob/master/Document/Installation.pdf )
+( Or click on the link: https://github.com/CoTkun2000/eProject/blob/master/Document/Installation_guide.pdf )
 
 Link test: https://cotkun2000.github.io/eProject/.
 
