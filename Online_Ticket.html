@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online-Ticket | Merciado Amusement Park</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/Online-ticket.css">
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/fontawesome/all.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700&display=swap" rel="stylesheet">
+    <!-- font Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a class="navbar-brand" href="home.html"><img class="logo" src="image/home/logo1.png" alt=""></a>
+                        </li>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="About_us.html">About Us</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Place to Visit <span
+                                    class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="Restaurant.html">Restaurant</a></li>
+
+                                <li><a href="Entertainment.html">Entertainment</a></li>
+
+                                <li><a href="gallery.html">Gallery</a></li>
+
+                            </ul>
+                        </li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                        <li><a href="Online_Ticket.html">Online Ticket</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="register.html">Register</a></li>
+                    </ul>
+                    <form class="navbar-form navbar-right">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+    </header>
+    <div id="nav-ticket" style="height: 260px;">
+    </div>
+    <section id="cart_items">
+        <div class="container">
+            <div class="table-responsive cart_info">
+                <table class="table table-condensed">
+                    <thead>
+                        <tr class="cart_menu">
+                            <td class="image">Item</td>
+                            <td class="description"></td>
+                            <td class="price">Price</td>
+                            <td class="quantity">Discount</td>
+                            <td class="total">Total</td>
+                            <td></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="cart_product">
+                            </td>
+                            <td class="cart_description">
+                                <h4><a href="#">Family pack</a></h4>
+                                <p style="white-space:pre"> Single Quantily</p>
+                                <p style="white-space:pre">Adults: 5.00$ / 4</p>
+                                <p style="white-space:pre">Childen: 5.00$ / 6</p>
+                            </td>
+                            <td class="cart_price">
+                                <p>$50.00</p>
+                            </td>
+                            <td class="cart_quantity">
+                                <h4>15%</h4>
+                            </td>
+                            <td class="cart_total">
+                                <p class="cart_total_price">$40.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="cart_product"></td>
+                            <td class="cart_description">
+                                <h4><a href="#">Single pack</a></h4>
+                                <p style="white-space:pre"> Single Quantily</p>
+                                <p style="white-space:pre">Adults: 5.00$ / 1</p>
+                                <p style="white-space:pre">Childen: 5.00$ / 1</p>
+                            </td>
+                            <td class="cart_price">
+                                <p>$10.00</p>
+                            </td>
+                            <td class="cart_quantity">
+                                <h4>0%</h4>
+                            </td>
+                            <td class="cart_total">
+                                <p class="cart_total_price">$10.00</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="cart_product"></td>
+                            <td class="cart_description">
+                                <h4><a href="#">Weekend pack (For 7 days)</a></h4>
+                                <p style="white-space:pre"> Single Quantily</p>
+                                <p style="white-space:pre">Adults: 30.00$ / 4</p>
+                                <p style="white-space:pre">Childen: 35.00$ / 6</p>
+                            </td>
+                            <td class="cart_price">
+                                <p>$330.00</p>
+                            </td>
+                            <td class="cart_quantity">
+                                <h4>30%</h4>
+                            </td>
+                            <td class="cart_total">
+                                <p class="cart_total_price">$231.00</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="heading">
+                <h3>Open time</h3>
+                <p>Open 24 hours per day. and always open.</p>
+            </div>
+        </div>
+    </section>
+    <!--/#cart_items-->
+    <section id="do_action">
+        <div class="container">
+            <div class="heading">
+                <h3>What would you like to do next?</h3>
+                <p>Choose if you have a discount code or reward points you want to use or would like to estimate your delivery cost.</p>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="chose_area">
+                        <ul class="user_option">
+                            <li>
+                                <input type="checkbox">
+                                <label>Use Coupon Code</label>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <label>Use Gift Voucher</label>
+                            </li>
+                            <li>
+                                <input type="checkbox">
+                                <label>Estimate Shipping & Taxes</label>
+                            </li>
+                        </ul>
+                        <ul class="user_info">
+                            <li class="single_field">
+                                <label>Country:</label>
+                                <select>
+                                    <option>United States</option>
+                                    <option>Bangladesh</option>
+                                    <option>UK</option>
+                                    <option>India</option>
+                                    <option>Pakistan</option>
+                                    <option>Ucrane</option>
+                                    <option>Canada</option>
+                                    <option>Dubai</option>
+                                </select>
+
+                            </li>
+                            <li class="single_field">
+                                <label>Region / State:</label>
+                                <select>
+                                    <option>Select</option>
+                                    <option>Dhaka</option>
+                                    <option>London</option>
+                                    <option>Dillih</option>
+                                    <option>Lahore</option>
+                                    <option>Alaska</option>
+                                    <option>Canada</option>
+                                    <option>Dubai</option>
+                                </select>
+
+                            </li>
+                            <li class="single_field zip-field">
+                                <label>Zip Code:</label>
+                                <input type="text">
+                            </li>
+                        </ul>
+                        <a class="btn btn-default update" href="">Get Quotes</a>
+                        <a class="btn btn-default check_out" href="">Buy Ticket</a>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="total_area">
+                        <ul>
+                            <li>Cart Sub Total <span></span></li>
+                            <li>Eco Tax <span></span></li>
+                            <li>Total <span></span></li>
+                        </ul>
+                        <a class="btn btn-default update" href="">Update</a>
+                        <a class="btn btn-default check_out" href="">Check Out</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--/#do_action-->
+    <footer>
+        <div class="row" style="margin: auto">
+            <div class="col-sm-4 footer-left">
+                <a href="home.html">
+                    <h3>Merciado
+                        <span>Amusement Park</span>
+                    </h3>
+                </a>
+                <br><br>
+                <div>
+                    <a href="home.html">
+                        <p>Home</p>
+                    </a>
+                    <a href="About_us.html">
+                        <p>About us</p>
+                    </a>
+                    <a href="Contact.html">
+                        <p>Contact Us</p>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4 footer-center">
+                <div>
+                    <i class="fas fa-map-marker-alt fa-2x"></i>
+                    <span>No 123, AAA Street, BBB District, CCC</span>
+                </div>
+                <br>
+                <div>
+                    <i class="fas fa-phone-volume fa-2x"></i>
+                    <span>+00 123456789</span>
+                </div>
+                <br>
+                <div>
+                    <a href="Contact.html"><i class="fas fa-envelope fa-2x"></i>
+                        <span>Merciado_AmusementPark@gmail.com</span></a>
+                </div>
+            </div>
+            <div class="col-sm-4 footer-right">
+                <h3>Deverloper</h3>
+                <hr>
+                <p>PHAM ANH DUC</p>
+                <p>LUONG TRUC QUYNH</p>
+                <p>NGUYEN TRUNG KIEN</p>
+                <p>TRIEU QUOC VUONG</p>
+                <hr>
+                <ul class="icon">
+                    <li>
+                        <a href="#"><img class="icon-img" src="image/home/Fb_Icon.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icon-img" src="image/home/Tw_Icon.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icon-img" src="image/home/youtube.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icon-img" src="image/home/pin.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="#"><img class="icon-img" src="image/home/Go_Icon.png" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

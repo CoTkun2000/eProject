@@ -1,0 +1,219 @@
+body {
+    background-color: #eff2f3;
+}
+
+#nav-ticket {
+    background-image: url(images/logo-ticket.jpg);
+    background-size: cover;
+    text-align: center;
+}
+
+#cart_items {
+    margin-top: 20px;
+}
+
+#cart_items .cart_info {
+    border: 2px solid white;
+    margin-bottom: 50px;
+}
+
+#cart_items .cart_info .cart_menu {
+    background: rgb(250, 151, 22);
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+#cart_items .cart_info .cart_menu .image {
+    margin-left: 100px;
+}
+
+#cart_items .cart_info .table.table-condensed {
+    background-color: rgb(167, 214, 245);
+    border-bottom: 1px solid #F7F7F0;
+}
+
+#cart_items .cart_info .table.table-condensed thead tr {
+    height: 51px;
+}
+
+#cart_items .cart_info .table.table-condensed tr {
+    border-bottom: 1px solid #F7F7F0;
+}
+
+#cart_items .cart_info .table.table-condensed tr:last-child {
+    border-bottom: 0;
+}
+
+.cart_info table tr td {
+    border-top: 0 none;
+    vertical-align: inherit;
+}
+
+#cart_items .cart_info .cart_description h4 {
+    margin-bottom: 0;
+}
+
+#cart_items .cart_info .cart_description h4 a {
+    color: #363432;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: rgb(226, 138, 55);
+    list-style: none;
+    text-decoration: none;
+    text-shadow: 2px 2px 1px rgb(181, 174, 224);
+    font-weight: 600;
+}
+
+#cart_items .cart_info .cart_description h4 a:hover {
+    font-weight: bolder;
+    color: #FE980F;
+}
+
+#cart_items .cart_info .cart_description p {
+    color: #696763;
+    font-size: 1.2em;
+}
+
+#cart_items .cart_info .cart_price p {
+    color: #696763;
+    font-size: 18px
+}
+
+#cart_items .cart_info .cart_total_price {
+    color: rgb(235, 133, 37);
+    font-size: 24px;
+}
+
+.cart_product {
+    display: block;
+    margin: 15px -70px 10px 25px;
+}
+
+.heading h3 {
+    color: rgb(117, 19, 65);
+    font-size: 23px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.heading p {
+    color: #434343;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#do_action .total_area {
+    padding-bottom: 18px !important;
+}
+
+#do_action .total_area,
+#do_action .chose_area {
+    border: 1px solid #81ecec;
+    color: #696763;
+    padding: 30px 25px 30px 0;
+    margin-bottom: 80px;
+}
+
+.total_area {
+    background-color: #48dbfb;
+}
+
+.total_area ul li {
+    background: #e4f67c;
+    color: #38a7c0;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 1.2em;
+    padding: 7px 20px;
+    list-style: none;
+}
+
+.chose_area {
+    background-color: #48dbfb;
+}
+
+.user_option {
+    margin-left: 10px;
+}
+
+.user_option li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.user_option label {
+    color: rgb(25, 128, 197);
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+.user_info {
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+.user_info li {
+    list-style: none;
+    text-decoration: none;
+}
+
+.user_info label {
+    color: #a04b24;
+    font-weight: 600;
+    display: block;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.user_info .single_field {
+    width: 31%;
+}
+
+.user_info>li {
+    float: left;
+    margin-right: 10px;
+}
+
+.user_info input,
+select,
+textarea {
+    background-color: #eff2f3;
+    border: 0;
+    color: #696763;
+    padding: 5px;
+    width: 100%;
+    border-radius: 0;
+    resize: none;
+}
+
+.user_info select:focus {
+    border: 0;
+}
+
+.chose_area .update {
+    margin-left: 40px;
+}
+
+.update,
+.check_out,
+.book {
+    background: #FE980F;
+    border-radius: 0;
+    color: #FFFFFF;
+    margin-top: 18px;
+    border: none;
+    padding: 5px 15px;
+}
+
+.update {
+    margin-left: 40px;
+}
+
+.check_out {
+    margin-left: 20px
+}

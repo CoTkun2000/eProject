@@ -1,0 +1,302 @@
+/* ................................... */
+
+
+/* ................................... */
+
+
+/* ........ENTERTAINMENT.............. */
+
+
+/* ................................... */
+
+
+/* ................................... */
+
+h2.title {
+    color: rgb(236, 84, 24);
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 0 15px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    text-shadow: 2px 1px 2px #FE980F;
+}
+
+#image {
+    padding: 10px;
+}
+
+
+/* .............row-left.............. */
+
+#row-left {
+    background-color: rgb(23, 148, 148);
+    padding-bottom: 10px;
+}
+
+#row-left p {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#row-left .book {
+    background: rgb(230, 147, 39);
+    border-radius: 0;
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-left: 10px;
+    border: none;
+    padding: 5px 15px;
+}
+
+#row-left .book1 {
+    background: rgb(230, 147, 39);
+    border-radius: 0;
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-left: 10px;
+    border: none;
+    padding: 5px 15px;
+}
+
+
+/* .............row-right.............. */
+
+#row-right {
+    background-color: rgb(214, 128, 15);
+    padding-bottom: 10px;
+    margin-right: 0px;
+    border-left: 2px solid tan;
+}
+
+#row-right p {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#row-right .book {
+    background: rgb(40, 155, 155);
+    border-radius: 0;
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-left: 10px;
+    border: none;
+    padding: 5px 15px;
+}
+
+#row-right .book1 {
+    background: rgb(40, 155, 155);
+    border-radius: 0;
+    color: #FFFFFF;
+    margin-top: 18px;
+    margin-left: 10px;
+    border: none;
+    padding: 5px 15px;
+}
+
+.product-image-wrapper {
+    border: 1px solid #F7F7F5;
+    overflow: hidden;
+    margin-top: 4px;
+    border-top: 6px solid rgb(224, 224, 40);
+}
+
+.product-image-wrapper:hover {
+    border-top: 4px solid rgb(245, 124, 144);
+}
+
+.single-products {
+    position: relative;
+}
+
+.product-overlay h1 {
+    color: rgb(117, 19, 65);
+}
+
+.product-overlay h2 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700px;
+}
+
+.productinfo p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #6d35ad;
+    margin-top: 10px;
+}
+
+.productinfo img {
+    width: 100%;
+}
+
+.productinfo {
+    position: relative;
+}
+
+
+/* .............row-left.............. */
+
+#row-left .single-products .product-overlay {
+    background: rgb(170, 111, 33);
+    top: 0;
+    display: none;
+    height: 0;
+    position: absolute;
+    transition: height 500ms ease 0s;
+    width: 100%;
+    display: block;
+    opacity: .6;
+}
+
+#row-left .single-products:hover .product-overlay {
+    display: block;
+    height: 100%;
+}
+
+
+/* .............row-right.............. */
+
+#row-right .single-products .product-overlay {
+    background: rgb(23, 148, 148);
+    top: 0;
+    display: none;
+    height: 0;
+    position: absolute;
+    transition: height 500ms ease 0s;
+    width: 100%;
+    display: block;
+    opacity: .6;
+}
+
+#row-right .single-products:hover .product-overlay {
+    display: block;
+    height: 100%;
+}
+
+.product-overlay .overlay-content {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+
+/* ................................... */
+
+
+/* ...........PAGE-DETAILS............ */
+
+
+/* ................................... */
+
+#menu {
+    margin: 0 8px;
+    margin-top: 80px;
+    background-color: rgb(233, 160, 66);
+}
+
+#menu a {
+    margin-left: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    color: rgb(171, 212, 230);
+    text-decoration: none;
+}
+
+.git {
+    margin: 7px 0;
+}
+
+#menu a:hover {
+    color: rgb(236, 17, 17);
+    text-shadow: 2px 4px 1px rgb(214, 219, 221);
+}
+
+
+/* ..............Gentle................ */
+
+.Gentle {
+    background-color: rgb(57, 147, 150);
+    padding: 20px;
+    margin: 7px;
+}
+
+.Gentle p {
+    margin: 20px 0;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 3px 1px 1px tan;
+}
+
+.Gentle .txt {
+    text-align: center;
+    font-size: 20px;
+    margin: 30px;
+    color: #FE980F;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.Gentle .txts .txts-text {
+    margin: 10px;
+    font-size: 19px;
+    color: rgb(56, 20, 65);
+}
+
+
+/* ..............Thrilling................. */
+
+.Thrilling {
+    background-color: #ff9f43;
+    padding: 20px;
+    margin: 7px;
+}
+
+.Thrilling p {
+    margin: 20px 0;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 3px 1px 1px teal;
+}
+
+.Thrilling .txt {
+    text-align: center;
+    font-size: 20px;
+    margin: 30px;
+    color: rgb(57, 147, 150);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.Thrilling .txts .txts-text {
+    margin: 10px;
+    font-size: 19px;
+    color: rgb(56, 20, 65);
+}
+
+.txts-img {
+    text-align: center;
+}
+
+.txts-img img {
+    width: 100%;
+    height: 50%;
+}
+
+.bol {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -40px;
+}

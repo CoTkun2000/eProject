@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Merciado Amusement Park</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/fontawesome/all.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+           
+            <nav class="navbar navbar-default navbar-fixed-top">
+
+                    <div class="container-fluid">
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a class="navbar-brand" href="home.html"><img class="logo" src="image/home/logo1.png" alt=""></a>
+                                </li>
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="About_us.html">About Us</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false">Place to Visit <span
+                                            class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="Restaurant.html">Restaurant</a></li>
+        
+                                        <li><a href="Entertainment.html">Entertainment</a></li>
+        
+                                        <li><a href="gallery.html">Gallery</a></li>
+        
+                                    </ul>
+                                </li>
+                                <li><a href="Contact.html">Contact Us</a></li>
+                                <li><a href="Online_Ticket.html">Online Ticket</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="register.html">Register</a></li>
+                            </ul>
+                           
+        
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+    </header>
+    <section>
+        <div  style="background-color: rgba(34, 33, 33, 0.9); height: 800px;">
+        <div class="login-box">
+            <h1>Login</h1>
+            <form action="home.html" method="post" id="form-login">
+            <div class="textbox">
+                <i class="fas fa-user"></i>
+                <input type="text" placeholder="Username" required>
+            </div>
+            <div class="textbox">
+                <i class="fas fa-lock"></i>
+                <input type="password" placeholder="Password" required>
+
+            </div>
+            <input class="btn-login" type="submit" id="login" value="Sign In">
+            </form>
+        </div>
+        <div class="login-footer">
+            <h5>Don't have an account ?</h5>
+            <a href="register.html">Sign up</a>
+        </div>
+        </div>
+    </section>
+    <footer>
+            <div class="container-fluid main-footer">
+                    <div class="row" style="margin: auto">
+                        <div class="col-sm-4 footer-left">
+                            <a href="home.html">
+                                <h3>Merciado
+                                    <span>Amusement Park</span>
+                                </h3>
+                            </a>
+                            <br><br>
+                            <div>
+                                <a href="home.html">
+                                    <p>Home</p>
+                                </a>
+                                <a href="About_us.html">
+                                    <p>About us</p>
+                                </a>
+                                <a href="Contact.html">
+                                    <p>Contact Us</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 footer-center">
+                            <div>
+                                <i class="fas fa-map-marker-alt fa-2x"></i>
+                                <span>No 123, AAA Street, BBB District, CCC</span>
+                            </div>
+                            <br>
+                            <div>
+                                <i class="fas fa-phone-volume fa-2x"></i>
+                                <span>+00 123456789</span>
+                            </div>
+                            <br>
+                            <div>
+                                <a href="Contact.html"><i class="fas fa-envelope fa-2x"></i>
+                                    <span>Merciado_AmusementPark@gmail.com</span></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 footer-right">
+                            <h3>Deverloper</h3>
+                            <hr>
+                            <p>PHAM ANH DUC</p>
+                            <p>LUONG TRUC QUYNH</p>
+                            <p>NGUYEN TRUNG KIEN</p>
+                            <p>TRIEU QUOC VUONG</p>
+                            <hr>
+                            <ul class="icon">
+                                <li> <a href="#"><img class="icon-img" src="image/home/Fb_Icon.png" alt=""></a> </li>
+                                <li><a href="#"><img class="icon-img" src="image/home/Tw_Icon.png" alt=""></a></li>
+                                <li><a href="#"><img class="icon-img" src="image/home/youtube.png" alt=""></a></li>
+                                <li><a href="#"><img class="icon-img" src="image/home/pin.png" alt=""></a></li>
+                                <li><a href="#"><img class="icon-img" src="image/home/Go_Icon.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="footer-bottom">
+                        Aptech &reg; Copyright 2019. All rights reserved
+                    </div>
+                </div>
+                <!--container-->
+    </footer>
+
+</body>
+    <script>
+        document.getElementById("form-login").onsubmit = function(){
+            alert("Logged in successfully!\nOn the homepage!");
+        }
+    </script>
+</html>''

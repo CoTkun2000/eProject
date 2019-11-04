@@ -1,0 +1,330 @@
+*{
+margin: 0;
+padding: 0;
+}
+/*
+body {
+    width: 1200px;
+    margin: auto;
+ 
+} */
+
+
+.navbar-brand{
+    padding: 0 !important;
+    padding-left: 50px !important;
+}
+.logo{
+    width: 80%;
+    height: 100%;
+}
+.navbar{
+    background-color: rgba(255, 255, 255, 0.3) !important;
+   box-shadow: 0px 3px 10px;
+   width: 90%;
+   margin: auto;
+}
+.navbar-brand{
+    font-size: 2em !important;
+}
+.navbar-nav ul{
+    background-color: rgba(255, 255, 255, 0.3)!important;
+}
+
+
+
+
+.navbar a{
+    color: black !important;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+ 
+}
+.navbar a:hover{
+    color: rgb(152, 83, 57) !important;
+}
+.btn:hover {
+    background-color:rgb(152, 83, 57) !important ;
+    color: white !important;
+}
+.home-aboutus{
+    background-color: rgb(57, 147, 150);
+    width: 100%;
+    height: 600px;
+}
+.home-aboutus h3{
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: futurabold;
+    font-size: 26px;
+    font-weight: bold;
+}
+.home-aboutus h3 a{
+    color: #fff;
+}
+.home-aboutus h3 a:hover{
+    text-decoration: none;
+}
+.hv{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.home-aboutus-info{
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 15%;
+}
+.home-aboutus-info p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1em;
+    color: #fff;
+}
+.bold{
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.home-aboutus-right{
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 80%;
+    border-radius: 50%;
+}
+.home-aboutus-right img{
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+.home-aboutus-right:hover img{
+    transform: scale(1.3);
+}
+  
+    
+.home-restaurant{
+    width: 80%;
+    margin: auto;
+}
+.home-restaurant h3{
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+    color: black;
+    text-transform: uppercase;
+    font-family: futurabold;
+    font-size: 26px;
+    font-weight: bold;
+}
+.home-restaurant h3 a{
+    color: black;
+}
+.home-restaurant h3 a:hover{
+    text-decoration: none;
+}
+.home-restaurant h4{
+    color: black;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.home-restaurant p{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+.big-res img{
+    width: 100%;
+    height: 300px;
+}
+.small-res img{
+    width: 100%;
+    height: 300px;
+}
+
+/* sub menu*/
+.sub-menu{
+    border: solid 0.1px darkgrey;
+}
+
+
+.sub-nav{
+    height: 40px;
+    background-color: rgb(108, 106, 106);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.sub-nav:hover{
+    background-color: rgb(57, 147, 150);
+}
+.sub-nav a:hover{
+    text-decoration: none;
+    color: brown;
+}
+
+.sub-nav a{
+    color:white;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: futurabold ;
+}
+.sub-menu-list{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.sub-menu-detail{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.sub-menu-detail a:hover{
+    text-decoration: none;
+    color: brown;
+}
+.sub-menu-detail a{
+    color: black;
+}
+.sub-menu img{
+    width: 100%;
+    height: 100px;
+    display: block;
+    margin-right: 15px;
+}
+
+
+/* home gallery*/
+.home-gallery{
+    background-color:rgb(57, 147, 150);
+}
+.home-gallery h3{
+    padding-top: 20px;
+    text-align: center;
+    position: relative;
+    color:white;
+    text-transform: uppercase;
+    font-family: futurabold;
+    font-size: 26px;
+    font-weight: bold;
+}
+.home-gallery h3 a{
+    color: white;
+}
+.home-gallery h3 a:hover{
+    text-decoration: none;
+}
+.home-gallery-contain {
+    display: flex;
+    width: 100%;
+    padding: 4% 2%;
+    box-sizing: border-box;
+    height: 500px;
+  }
+  
+  .box {
+    flex: 1;
+    overflow: hidden;
+    transition: .5s;
+    margin: 0 2%;
+    box-shadow: 0 25px 30px rgba(0, 0, 0,0.6);
+    line-height: 0;
+  }
+  
+  .box > img {
+    width: 200%;
+    height: calc(100% - 10vh);
+    object-fit: cover; 
+    transition: .5s;
+  }
+  
+  .box > span {
+    font-size: 3.8vh;
+    display: block;
+    text-align: center;
+    height: 10vh;
+    line-height: 2.6;
+    color: white;
+  }
+  
+  .box:hover { flex: 1 1 50%; }
+  .box:hover > img {
+    width: 100%;
+    height: 100%;
+  }
+
+/*.footer
+*/
+footer{
+    padding-top: 10px;
+    background-color: rgb(51, 49, 49);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   color: white;
+
+}
+
+.footer-left{
+    padding-left: 100px;
+}
+footer a:hover{
+    color:rgb(88, 88, 220);
+}
+.footer-left h3{
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+.footer-left p{
+    font-size: 20px;
+}
+.footer-left span{
+    color: rgb(88, 88, 220);
+}
+.footer-left span:hover{
+    color: white;
+}
+.footer-right{
+    padding-right: 100px;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer div a{
+    color: #fff;
+}
+footer a:hover {
+    text-decoration: none;
+}
+.icon li{
+    float: left;
+    padding-right: 10px;
+}
+.icon-img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    opacity: 0.7;
+}
+.icon-img:hover{
+    opacity: 1;
+}
+.footer-center{
+    padding-top: 90px;
+    padding-left: 100px;
+}
+.footer-center span{
+    padding-left: 20px;
+}
+.footer-bottom{
+    height: 20px;
+    text-align: center;
+}

@@ -1,0 +1,45 @@
+
+.table{
+    margin: 0 auto;
+    padding-left: 210px; 
+}
+img#pic{
+    width: 370px;
+    height: 300px;
+    margin: auto;
+    border: 7px solid white;
+    box-shadow: 3px 3px 5px blueviolet;
+    margin: 5px;
+}
+caption{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+}
+#link:hover{
+    color: red;
+    background-color: purple;
+    border: 0px solid purple;
+    border-radius: 5px 5px;
+}
+#link{
+    color: purple;
+    background-color: red;
+}
+.carousel-caption{
+    width: 100px;
+    height: 2.3em;
+    margin-left:150px ;
+    background-color:red;
+    color: white;
+    padding: 0px;
+    line-height: 2.2em;
+}
+img#pic:hover{
+    width: 370px;
+    height: 300px;
+    margin: auto;
+    border: solid black thin;
+    box-shadow: 3px 3px 5px blueviolet;
+    margin: 5px;
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact | Merciado Amusement Park</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="fontawesome-free-5.11.2-web/fontawesome/all.min.css">
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+            <nav class="navbar navbar-default navbar-fixed-top">
+
+                    <div class="container-fluid">
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav">
+                                <li><a class="navbar-brand" href="home.html"><img class="logo" src="image/home/logo1.png" alt=""></a>
+                                </li>
+                                <li><a href="home.html">Home</a></li>
+                                <li><a href="About_us.html">About Us</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                        aria-haspopup="true" aria-expanded="false">Place to Visit <span
+                                            class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="Restaurant.html">Restaurant</a></li>
+        
+                                        <li><a href="Entertainment.html">Entertainment</a></li>
+        
+                                        <li><a href="gallery.html">Gallery</a></li>
+        
+                                    </ul>
+                                </li>
+                                <li><a href="Contact.html">Contact Us</a></li>
+                                <li><a href="Online_Ticket.html">Online Ticket</a></li>
+                                <li><a href="login.html">Login</a></li>
+                                <li><a href="register.html">Register</a></li>
+                            </ul>
+                           
+        
+                        </div><!-- /.navbar-collapse -->
+                    </div><!-- /.container-fluid -->
+                </nav>
+    </header>
+
+    <section>
+        <div id="my-pics" class="carousel slide" data-ride="carousel" style="margin:auto;">
+
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#my-pics" data-slide-to="0" class="active"></li>
+              <li data-target="#my-pics" data-slide-to="1"></li>
+              <li data-target="#my-pics" data-slide-to="2"></li>
+            </ol>
+        
+            <!-- Content -->
+            <div class="carousel-inner" role="listbox">
+        
+              <!-- Slide 1 -->
+              <div class="item active">
+                <img src="image/home/slide1.jpg" style="width: 100%; height: 750px; margin: auto;" alt="">
+                <div class="carousel-caption" style="color: black;">
+                  <h3>MERCIADO ENTERTAINMENT</h3>
+                  <p>Ride,Roller Coaster,Chair Lift</p>
+                </div>
+              </div>
+        
+              <!-- Slide 2 -->
+              <div class="item">
+                <img src="image/home/restaurant2.jpg" style="width: 100%; height: 750px; margin: auto;" alt="">
+                <div class="carousel-caption">
+                  <h3>MERCIADO RESTAURANT</h3>
+                  <p>Delicious Cuisine!</p>
+                </div>
+              </div>
+        
+              <!-- Slide 3 -->
+              <div class="item">
+                <img src="image/home/slider3.jpg" style="width: 100%; height: 750px; margin: auto;" alt="">
+                <div class="carousel-caption">
+                  <h3>MERCIADO SHOWS</h3>
+                  <p>Shows,Concerts,Magic Shows</p>
+                </div>
+              </div>
+        
+            </div>
+        
+            <!-- Previous/Next controls -->
+            <a class="left carousel-control" href="#my-pics" role="button" data-slide="prev">
+              <span class="icon-prev" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#my-pics" role="button" data-slide="next">
+              <span class="icon-next" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+        
+          </div>
+        <!--slide-->
+        <br>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h2>Contact Form</h2>
+                    <!-- If user submit a valid request, the website will automatically return to Home page -->
+                    <form class="form-horizontal" action="Index.html" method="post">
+                        <div class="form-group">
+                            <label class="control-label col-sm-1" for="name">Name:</label>
+                            <div class="col-sm-11">
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name" required
+                                    ng-model="name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-1" for="email">Email:</label>
+                            <div class="col-sm-11 ">
+                                <!-- User have to give a valid email with a format  characters@characters.domain -->
+                                <input type="email" class="form-control"
+                                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" id="email"
+                                    placeholder="Enter your email" required ng-model="email">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label class="control-label col-sm-1" for="phone">Phone:</label>
+                            <div class="col-sm-6 ">
+                                <!-- User have give a valid tel number that has at least five digits  -->
+                                <input type="text" pattern="[0-9].{5,}" class="form-control" id="phone"
+                                    placeholder="Enter your telephone number" required ng-model="phone">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="info" class="col-sm-offset-1 col-sm-6">Request Info:</label>
+                            <div class="col-sm-offset-1 col-sm-6">
+                                <!-- User cannot type a request that has more than 150 characters -->
+                                <textarea class="form-control" maxlength="150" rows="3" required id="info"
+                                    ng-model="info" placeholder="Enter your request here"></textarea>
+                                <span id="textarea_feedback"></span>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-1 col-sm-6">
+                                <button type="submit" class="btn btn-danger">Submit</button>
+                                <button type="reset" class="btn btn-primary">Clear</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-sm-6">
+                    <h3>Map</h3>
+                    <div>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.327328412121!2d106.66403201393285!3d10.786222592314891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752ed23ca5d8db%3A0x24d414f45e5a523!2zNTkwIEPDoWNoIE3huqFuZyBUaMOhbmcgOCwgcGjGsOG7nW5nIDExLCBRdeG6rW4gMywgSOG7kyBDaMOtIE1pbmgsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1508214417569"
+                            width="550" height="350" frameborder="0" style="border:0" allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <footer>
+            <div class="container-fluid main-footer">
+                    <div class="row" style="margin: auto">
+                        <div class="col-sm-4 footer-left">
+                            <a href="home.html">
+                                <h3>Merciado
+                                    <span>Amusement Park</span>
+                                </h3>
+                            </a>
+                            <br><br>
+                            <div>
+                                <a href="home.html">
+                                    <p>Home</p>
+                                </a>
+                                <a href="About_us.html">
+                                    <p>About us</p>
+                                </a>
+                                <a href="Contact.html">
+                                    <p>Contact Us</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 footer-center">
+                            <div>
+                                <i class="fas fa-map-marker-alt fa-2x"></i>
+                                <span>No 123 AAA Street, BBB Disrict, CCC</span>
+                            </div>
+                            <br>
+                            <div>
+                                <i class="fas fa-phone-volume fa-2x"></i>
+                                <span>+00 123456789</span>
+                            </div>
+                            <br>
+                            <div>
+                                <a href="Contact.html"><i class="fas fa-envelope fa-2x"></i>
+                                    <span>Merciado_AmusementPark@gmail.com</span></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-4 footer-right">
+                            <h3>Deverloper</h3>
+                            <hr>
+                            <p>PHAM ANH DUC</p>
+                            <p>LUONG TRUC QUYNH</p>
+                            <p>NGUYEN TRUNG KIEN</p>
+                            <p>TRIEU QUOC VUONG</p>
+                            <hr>
+                            <ul class="icon">
+                                <li> <a href="#"><img class="icon-img" src="image/home/Fb_Icon.png" alt=""></a> </li>
+                                <li><a href="#"><img class="icon-img" src="image/home/Tw_Icon.png" alt=""></a></li>
+                                <li><a href="#"><img class="icon-img" src="image/home/youtube.png" alt=""></a></li>
+                                <li><a href="#"><img class="icon-img" src="image/home/pin.png" alt=""></a></li>
+                                <li><a href="#"><img class="icon-img" src="image/home/Go_Icon.png" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="footer-bottom">
+                        Aptech &reg; Copyright 2019. All rights reserved
+                    </div>
+                </div>
+                <!--container-->
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+body {
+    width: 1200px;
+    margin: auto;
+}
+img.pic {
+    width: 85%;
+    height: 170px;
+}
+.affix {
+    top: 270px;
+    z-index: 9999 !important;
+  }
